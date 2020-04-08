@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+.banner { 
+	float: left;
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+	background-color: #000;
+}
+
+.nav li {
+	width: 25%;
+	text-align: center;
+	list-style: none;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.nav li a{
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav li:hover {
+	background-color: #666;
+}
+
+.content {
+	float: left;
+	width: 100%;
+	padding: 15px;
+	/*background-color: #000;*/
+}
+
+.formulario {
+	float: left;
+	width: 70%;
+	height: 300px;
+	margin: 20px 15%;
+	/*background: pink;*/
+}
+
+.formularioInput {
+	float: left;
+	width: 50%;
+	padding: 0 5%;
+}
+
+.formularioInput100 {
+	width: 100% !important;
+
+}
+
+.formularioInput input[type='text'] {
+	width: 100%;
+	height: 45px;
+
+}
+
+.formularioInput select {
+	width: 100%;
+	height: 45px;
+
+}
+
+.formularioInput input[type='submit'] {
+	display: inline-block;
+	padding: 10px 30px;
+	background: #000000;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	margin: 15px 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.resultado {
+	display: none;
+	text-align: center;
+	float: left;
+	width: 70%;
+	padding: 15px;
+	border: 2px solid #00ff0d;
+	background: #d8ffd5;
+	margin: 20px 15%;
+}
+
+.center{
+	text-align: center;
+}
+
+.tableCrud {
+	width: 100%;
+	text-align: center;
+}
+
+.tableCrud tr:nth-child(2n -1){
+	background: #ccc;
+}
+
+.tableCrud tr:first-child {
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.tableCrud td {
+	width: 25%;
+}
+
+a .icon-link {
+	color: grey;
+	font-size: 25px;
+	padding: 3px 10px 3px;
+}
